@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/banner.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Atlântica - Padaria e Confeitaria</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <img src="/assets/banner.jpg" width="30em">
+            <div>
+                <img src="/assets/menu.png" class="menu-imagem" width="30em">
+                <li class="menu-menu1 hidden">
+                    <a>Principal</a>
+                </li>
+    
+                <li class="menu-menu2 hidden">
+                    <a>Quem somos</a>
+                </li>
+    
+                <li class="menu-menu3 hidden">
+                    <a>Contato</a>
+                </li>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="primeira">
+            <img class="banner" src="/assets/banner.jpg">
+        </section>
+
+        <section class="segunda">
+            <h1 class="titulo">Padaria Atlântica, servindo o bairro desde 1957.</h1>
+
+            <div class="segunda-div">
+                <img src="/assets/pao.png" width="100px">
+                <p class="texto">
+                    Pão fresquinho
+                </p>
+            </div>
+
+            <div class="segunda-div">
+                <img src="/assets/cafe.png" width="100px">
+                <p class="texto">
+                    Café questinho
+                </p>
+            </div>
+
+            <div class="segunda-div">
+                <img src="/assets/salgado.png" width="100px">
+                <p class="texto">
+                    Salgados saborosos
+                </p>
+            </div>
+        </section>
+
+        <section class="terceira">
+        <h2 class="terceira-div">
+            Nossos produtos
+        </h2>
+
+            <!-- Slider main container -->
+        <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="/assets/carrosel1.png" alt="" width="400em"></div>
+                <div class="swiper-slide"><img src="/assets/carrosel2.png" alt="" width="400em"></div>
+                <div class="swiper-slide"><img src="/assets/carrosel3.png" alt="" width="400em"></div>
+                <div class="swiper-slide"><img src="/assets/carrosel4.png" alt="" width="400em"></div>
+                <div class="swiper-slide"><img src="/assets/carrosel5.png" alt="" width="400em"></div>
+                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copy">Siga a gente</p>
+        <div>
+            <img src="/assets/facebook.png" width="50em">
+            <img src="/assets/instagram.png" width="50em">
+        </div>
+        <p class="copy">© 2022 por Douglas Deziderio - DEV.</p>
+    </footer>
+
+    <script src="/carousel.js"></script>
+    <script src="/menu.js"></script>
+</body>
+</html>

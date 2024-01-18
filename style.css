@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    padding: 1em;
+    background-color: #ded9d4;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.menu-menu1{
+    padding: 1em 2.2em;
+    position: absolute;
+    top: 4.1em;
+    right: 0.1em;
+    background-color: #C6A77B;
+    list-style-type: none;
+}
+
+.menu-menu2{
+    padding: 1em;
+    position: absolute;
+    top: 7.2em;
+    right: 0.1em;
+    background-color: #C6A77B;
+    list-style-type: none;
+}
+
+.menu-menu3{
+    padding: 1em 2.3em;
+    position: absolute;
+    top: 9.9em;
+    right: 0.1em;
+    background-color: #C6A77B;
+    list-style-type: none;
+    border-radius: 0 0 0 30px ;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+.primeira{
+    height: 100vh;
+    background-image: url("/assets/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.segunda{
+    background-color: #C6A77B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    padding: 1em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.segunda-div{
+    text-align: center;
+}
+
+.texto{
+    padding-bottom: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.terceira{
+    padding: 1em 0;
+    background: white;
+    text-align: center;
+}
+
+.terceira-div{
+    padding-bottom: 0.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.swiper {
+    width: 24em;
+    height: 17em;
+    border-radius: 15px 15px 9% 9%;
+}
+
+footer{
+    padding: 1em;
+    text-align: center;
+    background-color: #C6A77B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.copy{
+    font-family: 'Poppins', sans-serif; 
+}
